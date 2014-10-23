@@ -1,0 +1,71 @@
+//Button UI Pattern Styles
+
+button {
+  font-family: $font-base;
+  a {
+   &:hover {
+    text-decoration: none;
+   }
+  }
+}
+
+.stnd-primary,
+.sm-primary,
+.stnd-secondary,
+.sm-secondary,
+.stnd-disabled,
+.sm-disabled {
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.round {
+  border-radius: 0.8rem;
+}
+
+.square {
+  border-radius: 0.1rem;
+}
+
+.stnd-primary, .sm-primary {
+  background-color: $primary-color;
+  &:hover, &:focus {
+    background-color: $primary-color-hover;
+    outline: none;
+  }
+}
+
+.stnd-secondary, .sm-secondary {
+  background-color: $secondary-color;
+  &:hover, &:focus {
+    background-color: $secondary-color-hover;
+  }
+}
+
+.stnd-disabled, .sm-disabled {
+  background-color: $third-color;
+  color: $fourth-color;
+}
+
+.stnd-primary,
+.stnd-secondary,
+.stnd-disabled {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+.sm-primary,
+.sm-secondary,
+.sm-disabled {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+
+//Library View Styles
+
+.btn-header {
+  padding-bottom: 1em;
+  font-size: $medium;
+}

@@ -1,0 +1,97 @@
+.logo {
+  img {
+    display: inline;
+    float: right;
+  }
+  h1 {
+    padding-top: 4.2rem;
+    font-size: $larger;
+  }
+}
+header {
+  background-color: $primary-color;
+}
+.bottom-padding {
+  padding-bottom: $normal;
+}
+.top-padding {
+  padding-bottom: $normal;
+}
+.white-space {
+  padding-top: 4rem;
+}
+.margin-clear {
+  margin-top: 0;
+}
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.notes h1 {
+  margin: $normal;
+}
+.front-block {
+  background-color: $primary-color;
+  border-sizing: border-box;
+  padding: 1% 5% 5% 5%;
+}
+.front-post {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    margin-top: $small;
+  }
+}
+.code {
+  overflow: scroll;
+  background: $fourth-color;
+  height: auto;
+  border-radius: 3px;
+  pre, p {
+    margin-left: $normal;
+    padding-bottom: .1rem;
+    color: $third-color;
+    code {
+      line-height: 1.5rem;
+      color: $primary-color;
+      span {
+        display: block;
+      }
+    }
+  }
+  p {
+    margin-left: 0;
+  }
+}
+.current-tab {
+  background-color: white;
+}
+.break {
+  padding-bottom: 1.5rem;
+}
+.indent {
+  padding-left: 1rem;
+}
+a {
+  padding: 0 0.18rem;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+footer {
+  background-color: $secondary-color;
+  margin-top: $medium;
+  p {
+    padding: $normal;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+

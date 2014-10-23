@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title Bloom | #{title}
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='viewport', content='width=device-width; initial-scale=1.0; maximum-scale=1.0;')
+  body
+    header.section.group.logo
+      div.col.span_1_of_3
+        img(src='images/bloom-logo.png', alt="Bloom logo.")
+      div.col.span_2_of_3
+        h1 let your ideas bloom
+    ul.main-nav
+        li
+          a(href='/') Home
+        li
+          a(href='/buttons') Buttons
+        li
+          a(href='/colors') Colors
+        li
+          a(href='/forms') Forms
+        li
+          a(href='/grid') Grid
+        li
+          a(href='/media') Media
+        li
+          a(href='/nav') Navigation
+        li
+          a(href='/type') Typography
+    main
+      div.container
+        block content
+    footer
+      p
+        | Bloom UI Pattern Library was created by
+        a(href='http://github.com/Jay-TechSalon/') Jay
+        |,
+        a(href='http://github.com/mimigim/') Mimi
+        |,
+        a(href='http://github.com/nklunder/') Nick
+        |, and
+        a(href='http://github.com/vccalhoun14/') Victoria
+        |.
+    script(src='http://localhost:35729/livereload.js')
+    script(src='/javascripts/jquery-1.11.1.min.js')
+    script(src='/javascripts/app.js')
